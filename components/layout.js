@@ -41,7 +41,7 @@ export function Layout({ children, home }) {
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h3 className={utilStyles.headingXl}>{name}</h3>
           </div>
         ) : (
           <>
@@ -63,7 +63,7 @@ export function Layout({ children, home }) {
       </header>
 
       <main>{children}</main>
-      <footer>
+      <footer className={styles.footer}>
         <p> 
           <Link href="https://github.com/marcsonaz">
             <a>MarcsonAz</a>
