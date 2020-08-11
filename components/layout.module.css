@@ -1,0 +1,57 @@
+.container {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.header {
+  display: block;
+  margin: auto;
+}
+
+.homeHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContent {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.headerContent a {
+  text-decoration: none;
+}
+
+.headerImage {
+  width: 5rem;
+  height: 5rem;
+   margin: 1px 10px;
+}
+
+.headerHomeImage {
+  width: 8rem;
+  height: 8rem;
+}
+
+.backToHome {
+  padding: 0;
+  margin: 0;
+  font-size: 0.8rem;
+  margin-bottom: 2px;
+  border-bottom: .5px solid lightgrey;
+}
+
+.backToHome a {
+  text-decoration: none;
+}
+
+.container footer {
+  border-top: .5px solid lightgrey;
+}
+
+.container footer a {
+  margin: 0.6rem;
+}
